@@ -6,6 +6,8 @@ concatenar a b = a ++ b
 
 --Output: [1,2,3,4,5]
 
+--2)
+
 --a)
 :t True
 -- True :: Bool
@@ -23,8 +25,28 @@ concatenar a b = a ++ b
 -- porque haskell es un lenguaje que garantiza mucha seguridad al compilar osea fuertemente tipado 
 -- y maxima eficiencia al evitar calculos innecesarios osea evaluacion perezosa 
 
+--3)
 
+--a)
+main = print(doble 2)
 
+doble a = a * 2
+
+Output: 4
+
+--b)
+main = print(esMayorEdad 20)
+
+esMayorEdad a = a>=18
+
+--Output: True
+
+--c)
+main = print(areaCirculo 5)
+
+areaCirculo a = a*pi
+
+--Output: 15.707963267948966
 
 
 
