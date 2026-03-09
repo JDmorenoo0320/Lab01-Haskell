@@ -44,9 +44,9 @@ esMayorEdad a = a>=18
 --c)
 main = print(areaCirculo 5)
 
-areaCirculo a = a*pi
+areaCirculo a = pi*(a^2)
 
---Output: 15.707963267948966
+--Output: 78.53981633974483
 
 
 
