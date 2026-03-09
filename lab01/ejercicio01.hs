@@ -50,3 +50,6 @@ areaCirculo a = pi*(a^2)
 
 
 
+--¿Qué diferencias encuentras entre los tipos Int y Float?
+-- el tipo Int solo sirve para enteros y no recibe numeros con decimales, 
+-- mientras que float recibe tanto enteros como decimales
